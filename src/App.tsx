@@ -11,18 +11,18 @@ function App() {
           <PasswordMeter />
           <div className="mt-10 w-4/5">
             <p>
-              This password strength meter uses MIT licensed{" "}
+              This password strength meter uses{" "}
               <a href="https://github.com/dropbox/zxcvbn">
-                password strength estimator, zxcvbn
+                the password strength estimator, zxcvbn
               </a>
-              {""}. It uses common password patterns to estimate the strength of
-              a password. In it's current form it's not a tool that's intended
-              for every day use. Instead, this tool provides a visual
-              representation of password strength to help users understand the
-              difference between weak and strong passwords and passphrases. Keep
-              in mind that no password is truly safe and all passwords can
-              eventually be cracked. Strong password hygiene is a matter of
-              making that exercise as difficult as possible for attackers.
+              {""} The logic in zxcvbn uses common password patterns to estimate
+              the strength of a password. It's not a tool that's intended for
+              every day use. Instead, this tool provides a visual representation
+              of password strength to help users understand the difference
+              between weak and strong passwords and passphrases. Keep in mind
+              that no password is truly safe and all passwords can eventually be
+              cracked. Strong password hygiene is a matter of making that
+              exercise as difficult as possible for attackers.
             </p>
             <br />
             <p>
