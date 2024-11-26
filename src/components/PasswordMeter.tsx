@@ -64,7 +64,7 @@ export function PasswordMeter() {
 
   return (
     <div>
-      <form>
+      <form onSubmit={(e) => e.preventDefault()}>
         <label
           htmlFor="password"
           className="text-white block text-sm/6 font-medium"
